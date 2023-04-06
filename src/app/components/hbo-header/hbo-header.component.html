@@ -1,0 +1,20 @@
+<header
+  [ngClass]="{
+    'bg-hbo-black': !isScrollInTop,
+    'bg-gradient-to-b from-hbo-black to-transparent': isScrollInTop
+  }"
+  class="grid grid-cols-3 w-full px-10 py-5 sticky top-0 transition-colors duration-300"
+>
+  <nav class="mr-auto">
+    <ul class="flex gap-3 font-extrabold text-opacity-50">
+      <li>
+        <a>Peliculas</a>
+      </li>
+      <li>
+        <a>Series</a>
+      </li>
+    </ul>
+  </nav>
+  <hbo-icon class="mx-auto"></hbo-icon>
+  <section class="ml-auto">Wilmer sakasms kmaskms</section>
+</header>
