@@ -6,7 +6,7 @@ import { Component, HostListener, OnInit } from '@angular/core';
   styleUrls: ['./hbo-header.component.css'],
 })
 export class HboHeaderComponent implements OnInit {
-  isScrollInTop: boolean = true;
+  isScrollInTop = true;
 
   ngOnInit(): void {
     this._validateIfScrollIsInTop();
