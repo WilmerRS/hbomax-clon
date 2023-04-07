@@ -25,4 +25,4 @@ The developers have contributed to this project:
 
 ## 🗼 Design
 
-The design of this page was inspired by the design of <a href="https://play.hbomax.com/"> MadeByShape </a>.
+The design of this page was inspired by the design of <a href="https://play.hbomax.com/"> HboMax </a>.
