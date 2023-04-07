@@ -8,6 +8,7 @@ import { HboHeaderComponent } from './hbo-header/hbo-header.component';
 import { HboIconComponent } from './hbo-icon/hbo-icon.component';
 import { HboAvatarComponent } from './hbo-avatar/hbo-avatar.component';
 import { HboNavigationComponent } from './hbo-navigation/hbo-navigation.component';
+import { HboFooterComponent } from './hbo-footer/hbo-footer.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { HboNavigationComponent } from './hbo-navigation/hbo-navigation.componen
     HboHeaderComponent,
     HboAvatarComponent,
     HboNavigationComponent,
+    HboFooterComponent,
   ],
   imports: [
     CommonModule,
@@ -27,6 +29,7 @@ import { HboNavigationComponent } from './hbo-navigation/hbo-navigation.componen
     HboHeaderComponent,
     HboAvatarComponent,
     HboNavigationComponent,
+    HboFooterComponent,
   ],
 })
 export class ComponentsModule {}

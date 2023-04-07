@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ComponentsModule } from './components/components.module';
 import { HomeModule } from './pages/home/home.module';
 import { IconsManager } from './utils/IconsManager';
+import { ServicesModule } from './services/services.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { IconsManager } from './utils/IconsManager';
     HomeModule,
     ComponentsModule,
     NgIconsModule.withIcons(IconsManager.getIcons()),
+    ServicesModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
