@@ -2,22 +2,12 @@
   hboScrollInTop
   (scrollChange)="onScrollChange($event)"
   [ngClass]="{
-    'bg-hbo-black': !isScrollInTop,
+    'bg-hbo-black bg-opacity-90': !isScrollInTop,
     'bg-gradient-to-b from-hbo-black to-transparent': isScrollInTop
   }"
-  class="grid grid-cols-3 w-full px-10 py-5 fixed z-10 top-0 transition-colors duration-300"
+  class="grid grid-cols-3 w-full px-9 lg:px-12 py-5 fixed z-10 top-0 transition-colors duration-300 items-center"
 >
-  <nav class="mr-auto">
-    <ng-icon name="iconoirMenu"></ng-icon>
-    <ul class="flex gap-3 font-extrabold text-opacity-50">
-      <li>
-        <a>Peliculas</a>
-      </li>
-      <li>
-        <a>Series</a>
-      </li>
-    </ul>
-  </nav>
-  <hbo-icon class="mx-auto"></hbo-icon>
-  <section class="ml-auto">Wilmer sakasms kmaskms</section>
+  <hbo-navigation class="mr-auto" />
+  <hbo-icon class="mx-auto" />
+  <hbo-avatar class="ml-auto" />
 </header>
