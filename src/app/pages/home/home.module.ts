@@ -9,9 +9,11 @@ import { HomeRoutingModule } from './home-routing.module';
 
 import { ComponentsModule } from 'src/app/components/components.module';
 import { HomeComponent } from './home.component';
+import { HboHeroComponent } from './components/hbo-hero/hbo-hero.component';
+import { HboHeroAdvertisingComponent } from './components/hbo-hero-advertising/hbo-hero-advertising.component';
 
 @NgModule({
-  declarations: [HomeComponent],
+  declarations: [HomeComponent, HboHeroComponent, HboHeroAdvertisingComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,
