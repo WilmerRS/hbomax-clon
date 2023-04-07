@@ -8,7 +8,7 @@
 
 ## 🐧 Project explanation
 
-🎥📺🎞️ We are working on a project to create a clone of HBO MAX for educational purposes. Our aim is to learn about video streaming services and their functionalities. This project is solely for learning purposes and is not intended for commercial use. 🧑‍💻📚 Visit in:  `[hbomaxclon.vercel.app](https://hbomaxclon.vercel.app/home)`.
+🎥📺🎞️ We are working on a project to create a clone of HBO MAX for educational purposes. Our aim is to learn about video streaming services and their functionalities. This project is solely for learning purposes and is not intended for commercial use. 🧑‍💻📚 Visit in:  [hbomaxclon.vercel.app](https://hbomaxclon.vercel.app/home)
 
 ## 💻 Development server
 
