@@ -1,0 +1,23 @@
+<section class="relative w-full my-10 flex items-center px-9 lg:px-12">
+  <ng-icon
+    (click)="moveScrollToLeft()"
+    class="absolute ml-9 left-0 hover:text-hbo-violet transition-colors cursor-pointer"
+    name="iconoirNavArrowLeft"
+    size="1.6rem"
+  />
+  <div
+    #slider
+    class="w-full my-3 scroll-smooth overflow-scroll scroll flex gap-3 mx-9">
+    <a class="px-3 text-white font-bold py-1 border rounded-full hover:border-hbo-violet transition-colors duration-100 select-none"
+      *ngFor="let category of categories$ | async"
+    >
+      {{ category.name }}
+    </a>
+  </div>
+  <ng-icon
+    (click)="moveScrollToRight()"
+    class="absolute mr-9 right-0 hover:text-hbo-violet transition-colors cursor-pointer"
+    name="iconoirNavArrowRight"
+    size="1.6rem"
+  />
+</section>
