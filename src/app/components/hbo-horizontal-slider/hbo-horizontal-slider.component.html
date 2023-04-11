@@ -1,0 +1,19 @@
+<section class="relative w-full flex items-center">
+  <ng-icon
+    (click)="moveScrollToLeft()"
+    class="absolute left-0 hover:text-hbo-violet transition-colors cursor-pointer"
+    name="iconoirNavArrowLeft"
+    size="1.6rem"
+  />
+  <div
+    #slider
+    class="w-full my-3 scroll-smooth overflow-scroll scroll flex gap-3 mx-8">
+    <ng-content />
+  </div>
+  <ng-icon
+    (click)="moveScrollToRight()"
+    class="absolute right-0 hover:text-hbo-violet transition-colors cursor-pointer"
+    name="iconoirNavArrowRight"
+    size="1.6rem"
+  />
+</section>
