@@ -8,14 +8,21 @@ import { IconsManager } from 'src/app/utils/IconsManager';
 import { HomeRoutingModule } from './home-routing.module';
 
 import { ComponentsModule } from 'src/app/components/components.module';
-import { HomeComponent } from './home.component';
-import { HboHeroComponent } from './components/hbo-hero/hbo-hero.component';
-import { HboHeroAdvertisingComponent } from './components/hbo-hero-advertising/hbo-hero-advertising.component';
-import { HboCategoriesComponent } from './components/hbo-categories/hbo-categories.component';
 import { ServicesModule } from 'src/app/services/services.module';
+import { HboCategoriesComponent } from './components/hbo-categories/hbo-categories.component';
+import { HboHeroAdvertisingComponent } from './components/hbo-hero-advertising/hbo-hero-advertising.component';
+import { HboHeroComponent } from './components/hbo-hero/hbo-hero.component';
+import { HboMediaComponent } from './components/hbo-media/hbo-media.component';
+import { HomeComponent } from './home.component';
 
 @NgModule({
-  declarations: [HomeComponent, HboHeroComponent, HboHeroAdvertisingComponent, HboCategoriesComponent],
+  declarations: [
+    HomeComponent,
+    HboHeroComponent,
+    HboHeroAdvertisingComponent,
+    HboCategoriesComponent,
+    HboMediaComponent,
+  ],
   imports: [
     CommonModule,
     HomeRoutingModule,
@@ -25,4 +32,4 @@ import { ServicesModule } from 'src/app/services/services.module';
     NgIconsModule.withIcons(IconsManager.getIcons()),
   ],
 })
-export class HomeModule {}
+export class HomeModule { }

@@ -9,6 +9,7 @@ import { HboIconComponent } from './hbo-icon/hbo-icon.component';
 import { HboAvatarComponent } from './hbo-avatar/hbo-avatar.component';
 import { HboNavigationComponent } from './hbo-navigation/hbo-navigation.component';
 import { HboFooterComponent } from './hbo-footer/hbo-footer.component';
+import { HboHorizontalSliderComponent } from './hbo-horizontal-slider/hbo-horizontal-slider.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HboFooterComponent } from './hbo-footer/hbo-footer.component';
     HboAvatarComponent,
     HboNavigationComponent,
     HboFooterComponent,
+    HboHorizontalSliderComponent,
   ],
   imports: [
     CommonModule,
@@ -30,6 +32,7 @@ import { HboFooterComponent } from './hbo-footer/hbo-footer.component';
     HboAvatarComponent,
     HboNavigationComponent,
     HboFooterComponent,
+    HboHorizontalSliderComponent,
   ],
 })
 export class ComponentsModule {}
