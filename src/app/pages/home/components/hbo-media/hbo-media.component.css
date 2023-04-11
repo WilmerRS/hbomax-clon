@@ -1,0 +1,41 @@
+.movie {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.movie2 {
+  flex: 0 0 auto;
+  margin-right: 10px;
+  width: 150px;
+  text-align: left;
+}
+
+.movie img {
+  max-width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transform: scale3d();
+}
+
+.movie2 img {
+  max-width: 130px;
+  height: 200px;
+  object-fit: cover;
+  transform: scale3d();
+}
+
+.movie h2 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.movie p {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
